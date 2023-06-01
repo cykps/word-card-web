@@ -44,7 +44,7 @@ window.addEventListener("keypress", function (e) {
 
 let scrollFlg = false;
 let isTouchFlg = false;
-$('.box').on({
+window.on({
     'touchstart': function () {
         scrollFlg = true;
         isTouchFlg = true;
@@ -54,7 +54,7 @@ $('.box').on({
     }
 });
 
-$('.link').on('touchend click', function () {
+window.on('touchend click', function () {
     if (!isTouchFlg || (isTouchFlg && scrollFlg)) {
         nextQue();
     }
