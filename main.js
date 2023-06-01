@@ -40,6 +40,22 @@ window.addEventListener("keypress", function (e) {
     }
 });
 
-window.addEventListener('touchend',() => {
-    nextQue();
-})
+// https://qiita.com/c_nnnnnn/items/4853b2dc4491f1a56f1b
+
+let scrollFlg = false;
+let isTouchFlg = false;
+$('.box').on({
+    'touchstart': function () {
+        scrollFlg = true;
+        isTouchFlg = true;
+    },
+    'touchmove': function () {
+        scrollFlg = false;
+    }
+});
+
+$('.link').on('touchend click', function () {
+    if (!isTouchFlg || (isTouchFlg && scrollFlg)) {
+        nextQue();
+    }
+});
