@@ -44,17 +44,20 @@ window.addEventListener("keypress", function (e) {
 
 let scrollFlg = false;
 let isTouchFlg = false;
-window.on({
-    'touchstart': function () {
-        scrollFlg = true;
-        isTouchFlg = true;
-    },
-    'touchmove': function () {
-        scrollFlg = false;
-    }
+
+window.addEventListener("touchstart", () => {
+    scrollFlg = true;
+    isTouchFlg = true;
+    console.log("start");
 });
 
-window.on('touchend click', function () {
+window.addEventListener("touchmove", () => {
+    scrollFlg = false;
+    console.log("move");
+})
+
+window.addEventListener('touchend', () => {
+    console.log("end");
     if (!isTouchFlg || (isTouchFlg && scrollFlg)) {
         nextQue();
     }
