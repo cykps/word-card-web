@@ -14,7 +14,9 @@ function nextQue() {
 
             mode = 1;
             i--;
-        }
+        } else if (
+            addAns("END");
+        )
     } else if (mode == 1) {
         addAns(data[index].word);
         data.splice(index, 1);
