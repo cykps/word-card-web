@@ -1,0 +1,9 @@
+body {background-color: #282a36;}
+
+#console {
+    background-color: #282a36;
+    color: snow;
+    margin: 5vw;
+    min-height: 50vh;
+}
+
