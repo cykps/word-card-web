@@ -1,0 +1,11 @@
+body {
+    background-color: #282a36;
+    font-family: 'Arial','Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+#console {
+    background-color: #282a36;
+    color: snow;
+    margin: 5vw;
+    min-height: 50vh;
+}
