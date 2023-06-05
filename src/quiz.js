@@ -10,7 +10,7 @@ function nextQue() {
     if (mode == 0) {
         if (i > 0) {
             index = Math.floor(Math.random() * data.length);
-            addQue(dataLength - i + 1 + "." + data[index].ex);
+            addQue(dataLength - i + 1 + ". " + data[index].ex);
 
             mode = 1;
             i--;
