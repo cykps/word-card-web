@@ -1,6 +1,7 @@
 body {
     background-color: #282a36;
     font-family: 'Arial','Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    font-size: 20px;
 }
 
 #console {
@@ -8,4 +9,6 @@ body {
     color: snow;
     margin: 5vw;
     min-height: 50vh;
+
+    line-height: 25px;
 }
