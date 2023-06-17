@@ -14,7 +14,11 @@ function buildTree(dirPath) {
             result[file] = buildTree(fullPath)
         } else {
             // ファイルを JSON オブジェクトに追加する
-            result[file] = null
+            if (file == "data.json") {
+                const jsonData = fs.readFileSync(fullPath, 'utf-8');
+                const data = JSON.parse(jsonData);
+                result[file] = data[0].property.name;
+            }
         }
     }
 
