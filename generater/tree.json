@@ -1,0 +1,57 @@
+{
+  "english_reading": {
+    "1-1_exam": {
+      "idiom": {
+        "from_print.js": null,
+        "index.html": null
+      },
+      "index.html": null,
+      "study_note_questions": {
+        "from_print.js": null,
+        "index.html": null
+      },
+      "words": {
+        "from_print.js": null,
+        "index.html": null
+      }
+    },
+    "index.html": null
+  },
+  "geography": {
+    "1-1_exam": {
+      "from_print.js": null,
+      "index.html": null,
+      "test.json": null
+    },
+    "index.html": null
+  },
+  "index.html": null,
+  "japanese-kou": {
+    "1-1_exam": {
+      "akutagawa_and_rasyoumon": {
+        "from_print.js": null,
+        "index.html": null
+      },
+      "class_print": {
+        "from_print.js": null,
+        "index.html": null
+      },
+      "index.html": null
+    },
+    "index.html": null
+  },
+  "japanese-otu": {
+    "1-1_exam": {
+      "important_old_word": {
+        "from_print.js": null,
+        "index.html": null
+      },
+      "index.html": null,
+      "waka-gikou": {
+        "from_print.js": null,
+        "index.html": null
+      }
+    },
+    "index.html": null
+  }
+}

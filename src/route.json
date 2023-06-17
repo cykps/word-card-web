@@ -1,0 +1,14 @@
+[
+    {
+        "english_reading": {
+            "1-1_exam": {
+                "idiom": "教科書の本文から抜き出した問題",
+                "study_note_questions": "教科書の問題",
+                "words": "教科書の英単語"
+            }
+        },
+        "geography": {
+            "1-1_exam": "地理単語帳"
+        }
+    }
+]
